@@ -1,0 +1,74 @@
+// NOTE - This file is not used in project it's only for understanding the api structure
+
+{
+    
+    "status": "ok",
+    "totalResults": 38,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Thesouthfirst.com"
+            },
+            "author": "Sumit Jha",
+            "title": "Why India is sending Aditya-L1 sun mission? - South First",
+            "description": "Aditya-L1 will be the first dedicated Indian space mission to observe the Sun. It is likely to be launched on 2 September.",
+            "url": "https://thesouthfirst.com/news/know-all-about-isros-aditya-l1-the-space-detective-trying-to-solve-solar-puzzle/",
+            "urlToImage": "https://thesouthfirst.com/wp-content/uploads/2023/08/New-Project-2023-08-27T190640.727.jpg",
+            "publishedAt": "2023-08-28T04:04:02Z",
+            "content": "After scripting history with Chandrayaan-3, the Indian Space Research Organisation (ISRO) is gearing up for its solar mission, Aditya-L1.\r\nThough an official launch date is yet to be announced, the A… [+9495 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "India Today"
+            },
+            "author": "India Today News Desk",
+            "title": "Muzaffarnagar school ordered shut amid investigation into student slapping row - India Today",
+            "description": "Neha Public School in Uttar Pradesh's Muzaffarnagar, where a Muslim student was slapped by fellow classmates on a teacher's instruction, has been ordered shut until the departmental action against the school is completed.",
+            "url": "https://www.indiatoday.in/india/story/muzaffarnagar-school-student-slapping-row-neha-public-school-shut-education-department-issues-notice-2427489-2023-08-28",
+            "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/media_bank/202308/muzaffarnagar-school-student-slapped-283021-16x9.jpg?VersionId=B4hM2rwHeoA_BHZ03L6Oewe9ehxysXjz",
+            "publishedAt": "2023-08-28T03:50:12Z",
+            "content": "Neha Public School in Uttar Pradesh's Muzaffarnagar, where a Muslim student was on Friday slapped by his classmates following the orders of a teacher, has been ordered shut until action is taken agai… [+1676 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "TIMESOFINDIA.COM",
+            "title": "Vivo V29e to launch in India: Likely and specs and more - Times of India",
+            "description": "Vivo is launching its new V29e smartphone in India today. The phone is expected to have a dual rear camera with a 64MP main sensor and a 50MP front ca",
+            "url": "https://timesofindia.indiatimes.com/gadgets-news/vivo-v29e-to-launch-in-india-likely-and-specs-and-more/articleshow/103117773.cms",
+            "urlToImage": "https://static.toiimg.com/thumb/msid-103117752,width-1070,height-580,imgsize-19486,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2023-08-28T03:28:00Z",
+            "content": "New iPhone colours introduced in the last five years"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Livemint"
+            },
+            "author": "Sounak Mukhopadhyay",
+            "title": "'Dream Girl 2' Box Office collections Day 3: Ayushmann Khurrana’s movie continues strong streak with impressive numbers | Mint - Mint",
+            "description": "Dream Girl 2 Box Office collection: Ayushmann Khurrana’s movie impresses in its opening weekend.",
+            "url": "https://www.livemint.com/industry/media/dream-girl-2-box-office-collections-day-3-ayushmann-khurrana-s-movie-continues-strong-streak-with-impressive-numbers-11693191213993.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2023/08/28/600x338/Dream_Girl_2_1693191750852_1693191758070.png",
+            "publishedAt": "2023-08-28T03:08:51Z",
+            "content": "Dream Girl 2 has established its Box Office dominance over the weekend with a notable three-day collection. The movie, a highly anticipated sequel, has managed to captivate the audience's attention a… [+2530 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "NDTV News"
+            },
+            "author": null,
+            "title": "Ajit Pawar Explains Why He Left Uncle's Party To Join BJP-Sena Government - NDTV",
+            "description": "Maharashtra Deputy Chief Minister Ajit Pawar said that there are no permanent enemies and friends in politics adding that his faction joined alliance of BJP and Eknath Shinde-led Shiv Sena to solve the problems of the people in the state.",
+            "url": "https://www.ndtv.com/india-news/ajit-pawar-said-no-permanent-enemies-and-friends-in-politics-4334677",
+            "urlToImage": "https://c.ndtvimg.com/2023-07/b5458jf8_ajit-pawar-ani_625x300_04_July_23.jpg",
+            "publishedAt": "2023-08-28T02:50:00Z",
+            "content": "Ajit Pawar said there are no permanent enemies and no permanent friends in politics.\r\nBeed (Maharashtra): Maharashtra Deputy Chief Minister Ajit Pawar on Sunday said that there are no permanent enemi… [+3002 chars]"
+        }
+    ]
+}

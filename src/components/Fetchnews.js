@@ -61,8 +61,8 @@ export default class Fetchnews extends Component {
     }
 
     fetchMoreData = async () => {
+        const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKeyy}&page=${this.state.page+1}&pageSize=${this.props.pageSize}`;
         this.setState({ page: this.state.page + 1 })
-        const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKeyy}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
         let data = await fetch(url);
         let parsedData = await data.json()
         this.setState({
@@ -86,8 +86,14 @@ export default class Fetchnews extends Component {
                     <div className="container">
 
                         <div className="row">
-                            {this.state.articles.map((element, index) => {
-                                return <div className="col-md-4" key={`${element.url}-${index}`}>
+                            {/* Note - two children unique warning can solve using passing index im map like this return <div className="col-md-4" key={`${element.url}-${index}`}>
+                                    <Item title={element.title ? element.title : ""} description={element.description ? element.description : ""} imageUrl={element.urlToImage} newsUrl={element.url} author={element.author} date={element.publishedAt} source={element.source.name} />
+                                </div>
+                            })}  also and can solve using fetchemoreData function to swap two lines  1.this.setState({ page: this.state.page + 1 }) 2.const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKeyy}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+                            with 1.const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKeyy}&page=${this.state.page+1}&pageSize=${this.props.pageSize}`;
+                            2.this.setState({ page: this.state.page + 1 }) but second is good in this case*/}
+                            {this.state.articles.map((element) => {
+                                return <div className="col-md-4" key={element.url}>
                                     <Item title={element.title ? element.title : ""} description={element.description ? element.description : ""} imageUrl={element.urlToImage} newsUrl={element.url} author={element.author} date={element.publishedAt} source={element.source.name} />
                                 </div>
                             })}
